@@ -1,0 +1,153 @@
+
+.nft__card__content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nft__card__main__title{
+    margin-block: 230px 50px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.003em;
+    text-align: left;
+    color: #fff;
+}
+
+.nft__card{
+    width: 100%;
+    background-color: #1F1F1F;
+    padding: 10px ;
+    border-radius: 15px;
+    transition: .5s;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.nft__card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgb(255, 166, 181);
+}
+
+.nft__card__img__content{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.nft__card__img {
+    width: 100%;
+    transition: .3s;
+}
+
+.nft__card__main__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nft__card__img__content:hover .nft__card__img {
+    transform: scale(1.1);
+}
+
+
+.nft__card__title{
+    margin-block: 18px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #fff;
+}
+
+.nft__card__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .nft__card__profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nft__card__profile__img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.nft__card__profile__box{
+    position: relative;
+}
+
+ .nft__card__profile__check{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    border-radius: 50%;
+ }
+
+ .nft__card__profile__name{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    color: #fff;
+ }
+
+.nft__card__current__bid{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #6B6B6B;
+}
+
+.nft__card__price__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.nft__card__price__info strong{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+}
+
+.nft__card__price__info img{
+    width: 10px;
+    height: 16px;
+
+}
+
+.nft__card__btn{
+    padding: 11px 43px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    display: block;
+    margin: 50px auto;
+    transition: .3s;
+}
+
+.nft__card__btn:active{
+    box-shadow: 0px 0px 15px rgb(255, 166, 181);
+    transform: scale(0.9);
+}
